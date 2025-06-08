@@ -42,7 +42,7 @@ while fetching data from their API and maintaining the core functionality.
 ### Functional Features
 
 - Fetches skip data from:
-  https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft
+  https://app.wewantwaste.co.uk
 
 - Enables selection and deselection of skip sizes
 - Fully functional and reactive component structure
@@ -53,6 +53,13 @@ while fetching data from their API and maintaining the core functionality.
 - Dedicated `SkipCard` component for reuse and scalability
 - TailwindCSS utility-first classes for fast styling
 - Mobile-first responsive design
+
+---
+
+## Deployment
+
+This project is live and publicly accessible here:
+🔗 View Live on Vercel
 
 ---
 
