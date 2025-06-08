@@ -60,6 +60,7 @@ while fetching data from their API and maintaining the core functionality.
 
 This project is live and publicly accessible here:
 🔗 View Live on Vercel
+==> https://we-want-wast-ui-redesign.vercel.app
 
 ---
 
