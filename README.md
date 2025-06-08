@@ -1,12 +1,19 @@
 # REMWaste Skip Selection Redesign – React Coding Challenge
 
-This is my submission for the We Want Waste front-end coding challenge. I have redesigned the "Choose Your Skip Size" page in Figam and then coded with a modern, responsive, and animated user interface using React + Vite, TailwindCSS, and Framer Motion.
+![Figma Design Preview](./public/main.png)
+
+This is my submission for the We Want Waste front-end coding challenge.  
+I redesigned the "Choose Your Skip Size" page using Figma, then implemented it with a modern, responsive, and animated user interface using **React + Vite**, **TailwindCSS**, and **Framer Motion**.
+
+> Please note: The final coded version may slightly differ from the original Figma design, as I made some necessary adjustments during development.
 
 ---
 
 ## Objective
 
-> Redesign the "Choose Your Skip Size" page from https://wewantwaste.co.uk and Fetch Data from API while keeping its core functionality.
+Redesign the "Choose Your Skip Size" page from  
+[https://wewantwaste.co.uk](https://wewantwaste.co.uk)  
+while fetching data from their API and maintaining the core functionality.
 
 ---
 
@@ -14,54 +21,67 @@ This is my submission for the We Want Waste front-end coding challenge. I have r
 
 ### UI/UX Enhancements
 
-- Completely redesigned layout with a modern, clean look.
-- Beautiful **card-based design** for each skip option.
-- Responsive grid: adapts for mobile, tablet, and desktop.
-- Skip size cards now stand out when selected, with bold ring outlines.
-- Each skip has:
-  - Title (`X Yard Skip`)
+- Redesigned layout with a clean, modern aesthetic.
+- Card-based design for skip options.
+- Responsive grid layout for mobile, tablet, and desktop.
+- Visual feedback for selected cards with bold outlines.
+- Each skip card includes:
+  - Skip size title (e.g., `6 Yard Skip`)
   - Price
   - Hire period
-  - Interactive select/deselect button with icons.
+  - Select/deselect button with icons
 
 ### Visual Improvements
 
-- **Hover animation on image**: Scales up using Framer Motion.
-- **Selected card highlight**: Green ring + animated check icon.
-- Skip images are used to visually differentiate skip sizes.
-- Smooth animations when cards mount, hover, or toggle selection.
-- Subtle shadows, gradients, and motion effects for professional polish.
+- Hover animation on images using Framer Motion
+- Selection highlight with green ring and animated check icon
+- Skip images enhance visual recognition
+- Smooth entrance, hover, and toggle animations
+- Subtle shadows, gradients, and transitions for a polished look
 
-### Functionality
+### Functional Features
 
-- Fully preserves the original logic:
-  - Fetches skip data from:  
-    `https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft`
-  - Allows selecting and deselecting skip sizes.
+- Fetches skip data from:
+  https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft
+
+- Enables selection and deselection of skip sizes
+- Fully functional and reactive component structure
 
 ### Code Quality
 
-- Clean, modular React code.
-- Separated `SkipCard` component for scalability.
-- Maintainable TailwindCSS classes.
-- Fully responsive with utility-first CSS.
+- Modular and maintainable React codebase
+- Dedicated `SkipCard` component for reuse and scalability
+- TailwindCSS utility-first classes for fast styling
+- Mobile-first responsive design
 
 ---
 
 ## Technologies Used
 
 - [React](https://reactjs.org/)
+- [Vite](https://vite.dev/) – Fast frontend build tool
 - [TailwindCSS](https://tailwindcss.com/)
-- [Framer Motion](https://www.framer.com/motion/) for animations
-- [Lucide React](https://lucide.dev/) for icons
-- [Vite](https://https://vite.dev/) Vite a blazing fast frontend build tool
+- [Framer Motion](https://www.framer.com/motion/) – For animations
+- [Lucide React](https://lucide.dev/) – For icon integration
 
 ---
 
 ## Installation & Setup
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/we-want-wast-ui.git
-   cd remwaste-skip-ui I want to add figma design as png I created
-   ```
+   git clone https://github.com/Nathan821/We-Want-Wast-UI-Redesign.git
+   cd We-Want-Wast-UI-Redesign.git
+
+2. Install dependencies:
+   npm install
+
+3. Run the development server:
+   npm run dev
+
+4. Visit the app at:
+   http://localhost:5173
+
+- Notes
+  The redesign was approached with flexibility and practicality in mind.
+
+Some UI/UX choices may differ from the initial Figma layout for improved responsiveness or functionality.
