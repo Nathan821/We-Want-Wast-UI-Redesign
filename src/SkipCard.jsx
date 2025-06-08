@@ -59,7 +59,7 @@ const SkipCard = ({ skip, isSelected, onToggle }) => {
           <h3 className="text-xl font-bold font-[Poppins]">
             {skip.size} Yard Skip
           </h3>
-          <p className="text-sm opacity-90">{skip.hire_period_days}-day hire</p>
+          <p className="text-sm opacity-95">{skip.hire_period_days}-day hire</p>
           <p className="text-lg font-semibold">£{skip.price_before_vat}</p>
         </div>
 
