@@ -56,6 +56,13 @@ while fetching data from their API and maintaining the core functionality.
 
 ---
 
+### Figma Design
+
+- You can view the original UI redesign concept on Figma here;
+  ==> https://www.figma.com/design/TadFZigcmaGjUvnrDqGUXm/Untitled?node-id=5-2&t=fUp9Vt92Ajze4uIw-1
+
+---
+
 ## Deployment
 
 This project is live and publicly accessible here:
